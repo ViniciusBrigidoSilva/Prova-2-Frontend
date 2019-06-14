@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    display:grid;
+    grid-template-columns: 160px auto;
+    grid-template-rows: 60px auto;
+    grid-template-areas:
+    "topo topo"
+    "menu conteudo";
+    height: 100vh;  
+}
+header{
+    grid-area: topo;
+    background-color: #007493;
+}
+nav{
+    grid-area:menu;
+    background-color: #005978;
+    color:#a0b9c4;
+}
+main{
+    grid-area:conteudo;
+    padding:20px;
+    background-color: #E2E2E2;
+}
+
+h1{
+    color:#5d5d5d;
+}
+header img{
+    height: 40px;
+    margin-left: 10px;
+    margin-top:7px;
+}
+main h1{
+    text-align: center;
+}

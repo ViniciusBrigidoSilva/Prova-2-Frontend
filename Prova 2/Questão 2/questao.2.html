@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="menu.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <header><img src="logotrierdrogarias.png"></header>
+    <nav>
+        Menu:<br>
+    </nav>
+    <main>
+        <form>
+            Coloque as medidas do preço novo e o preço velho no local indicado<br>
+
+            <label id="precoNovo">Preço Novo--> </label> 
+            <input type="number" name='precoNovo'> <br>
+
+            <label id="precoVelho">Preço Velho--> </label> 
+            <input type="number" name='precoVelho'> <br>
+
+            <input type="button" value="Calcular" onclick="enviar(this.form)"><br>
+        </form>
+
+
+        <div id="resultado">
+        </div>
+
+        <script src="questao.2.js"></script>
+    </main>
+</body>
+</html>
